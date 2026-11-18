@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Roadmap</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f1f5;
+            color: #303846;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: auto;
+        }
+
+        /* Header */
+        header {
+            background-color: #1c385d;
+            color: white;
+            text-align: center;
+            padding: 32px 15px;
+            border-radius: 7px;
+            margin-bottom: 20px;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+        }
+
+        header h1 {
+            font-size: 25px;
+            margin-bottom: 16px;
+        }
+
+        header p {
+            font-size: 13px;
+        }
+
+        /* Section Cards */
+        .section {
+            background-color: white;
+            padding: 22px 21px;
+            margin-bottom: 15px;
+            border-radius: 7px;
+            border-left: 6px solid;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        .html {
+            border-color: #e44d26;
+        }
+
+        .css {
+            border-color: #2949db;
+        }
+
+        .javascript {
+            border-color: #f0df25;
+        }
+
+        .tag {
+            display: inline-block;
+            background-color: #edf1f4;
+            color: #52606d;
+            padding: 4px 7px;
+            font-family: monospace;
+            font-size: 12px;
+            margin-bottom: 12px;
+        }
+
+        .section h2 {
+            font-size: 20px;
+            margin-bottom: 12px;
+        }
+
+        .section p {
+            font-size: 13px;
+            line-height: 1.4;
+            margin-bottom: 12px;
+        }
+
+        /* Feature Boxes */
+        .features {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+
+        .feature-box {
+            background-color: #f5f8fb;
+            border: 1px solid #dce2e8;
+            border-radius: 4px;
+            padding: 14px 12px;
+            min-height: 96px;
+        }
+
+        .feature-box h3 {
+            font-size: 13px;
+            margin-bottom: 12px;
+        }
+
+        .feature-box p {
+            font-size: 13px;
+            line-height: 1.3;
+            margin: 0;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #2d3748;
+            color: #aab4c3;
+            text-align: center;
+            padding: 23px 10px;
+            border-radius: 7px;
+            font-size: 11px;
+            margin-top: 22px;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 600px) {
+            body {
+                padding: 12px;
+            }
+
+            header h1 {
+                font-size: 21px;
+            }
+
+            .section h2 {
+                font-size: 18px;
+            }
+
+            .features {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <header>
+            <h1>Web Development Roadmap</h1>
+            <p>Visualizing Isolated Component Sections</p>
+        </header>
+
+        <!-- HTML Section -->
+        <section class="section html" id="section-html">
+
+            <span class="tag">&lt;section id="section-html"&gt;</span>
+
+            <h2>01. HTML5 Structural Layer</h2>
+
+            <p>
+                HTML is responsible for the baseline infrastructure.
+                Every single button, piece of header text, or graphic
+                element is parsed natively via these semantic boundaries.
+            </p>
+
+            <div class="features">
+
+                <div class="feature-box">
+                    <h3>Tag Matrix</h3>
+                    <p>
+                        Manages elements like structural forms, lists,
+                        inputs, and semantic nodes.
+                    </p>
+                </div>
+
+                <div class="feature-box">
+                    <h3>SEO Engine</h3>
+                    <p>
+                        Allows search engine bots to crawl the system
+                        tags cleanly without errors.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CSS Section -->
+        <section class="section css" id="section-css">
+
+            <span class="tag">&lt;section id="section-css"&gt;</span>
+
+            <h2>02. Cascading Style Sheets (CSS)</h2>
+
+            <p>
+                CSS controls the entire aesthetic architecture.
+                This very block you are viewing is styled into an
+                isolated container module using distinct borders,
+                shadows, backgrounds, and specific component spacing rules.
+            </p>
+
+            <div class="features">
+
+                <div class="feature-box">
+                    <h3>Visual Spacing</h3>
+                    <p>
+                        Utilizes properties like margins and flexbox
+                        gaps to push component panels apart.
+                    </p>
+                </div>
+
+                <div class="feature-box">
+                    <h3>Color Coding</h3>
+                    <p>
+                        Injects hex codes to assign visual cues
+                        directly onto specific element structures.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- JavaScript Section -->
+        <section class="section javascript" id="section-js">
+
+            <span class="tag">&lt;section id="section-js"&gt;</span>
+
+            <h2>03. JavaScript Execution Engine</h2>
+
+            <p>
+                JavaScript acts as the logical runtime. When users
+                interact with widgets, hit form action controls,
+                trigger animation pipelines, or manipulate data
+                matrices, JS re-hydrates the static DOM sections dynamically.
+            </p>
+
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            Course Blueprint Block Grid Matrix • Optimized for Structural Classrooms
+        </footer>
+
+    </div>
+
+</body>
+</html>
